@@ -2,7 +2,7 @@
 
 A curated sample of personal [Claude Code](https://docs.claude.com/en/docs/claude-code) skills — instruction files that teach Claude a specific workflow and when to trigger it automatically.
 
-These 9 are pulled from a larger personal/work skill library and picked to show range: everyday dev workflow automation, multi-agent orchestration design, and small self-contained tooling. A couple reference "an orchestrator app I maintain" without naming it — that's a private project, kept out of this sample deliberately, not an oversight.
+These 10 are pulled from a larger personal/work skill library and picked to show range: everyday dev workflow automation, multi-agent orchestration design, leadership coaching, and small self-contained tooling. A couple reference "an orchestrator app I maintain" without naming it - that's a private project, kept out of this sample deliberately, not an oversight.
 
 ## What's here
 
@@ -22,6 +22,12 @@ These 9 are pulled from a larger personal/work skill library and picked to show 
 |---|---|---|
 | [`council`](orchestration/council/SKILL.md) | "let two AIs debate this", "council on X" | Adversarial multi-agent debate — opposed advocates, a prosecutor attacking all of them, a judge that must pick one answer and name its own strongest objection. Built to defeat the failure mode where two LLM instances told to "discuss" just agree with each other. |
 | [`ship-review`](orchestration/ship-review/SKILL.md) | "review this before I ship it", "/ship-review" | Adversarial pre-ship review pipeline: independent fresh-context reviewer, required E2E evidence, fix-or-escalate, stops short of pushing. Includes a 15-item failure catalog of real historical near-misses the pipeline was built to catch. |
+
+### leadership
+
+| Skill | Triggers on | What it does |
+|---|---|---|
+| [`people-skills`](leadership/people-skills/SKILL.md) | "how should I approach this conversation", a 1-1, a review, a negotiation | Coaches the judgement rather than writing the script: reads the other person on the Big Five axes, names which Radical Candor quadrant the plan is drifting into, and pushes back when the direct sentence is being avoided. Four reference files for 1-1s, performance reviews, salary negotiation and conflict. |
 
 ### tooling
 
