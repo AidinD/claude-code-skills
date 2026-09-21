@@ -24,7 +24,7 @@ requires an explicit human yes).
 Treat the steps below as a strong default, not a rigid script. Use judgment;
 flag genuinely ambiguous cases for the user rather than guessing.
 
-Written against Jot, the author's own personal open-source todo app — substitute
+Written against Jot, the author's own personal open-source todo app - substitute
 your own task tracker's data file and status vocabulary if you use something
 else. The session-metadata path below (`%APPDATA%\Claude\...`) is Windows-specific;
 adjust for your OS.

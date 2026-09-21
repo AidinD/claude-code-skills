@@ -7,7 +7,7 @@ Follow these steps in order:
 
 1. Run `git status` to see what's staged and unstaged
 2. Run `git diff` to review all changes
-3. Invoke the /code-review skill to review the diff for correctness bugs — fix anything obvious before continuing
+3. Invoke the /code-review skill to review the diff for correctness bugs - fix anything obvious before continuing
 4. Stage all relevant files (avoid secrets, binaries, or unrelated changes)
 5. Commit if there are uncommitted changes, following the repo's commit message style from `git log --oneline -5`
 6. Push the branch to origin

@@ -10,4 +10,4 @@ Then read each changed file and the diff. Summarize:
 2. Any patterns or themes across the changes
 3. Anything that looks incomplete, broken, or worth flagging
 
-Be concise. This is a catch-up summary, not a code review — for an actual bug/quality pass on the same diff, use `/pr`'s review step instead.
+Be concise. This is a catch-up summary, not a code review - for an actual bug/quality pass on the same diff, use `/pr`'s review step instead.

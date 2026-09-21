@@ -20,18 +20,18 @@ interview-and-write path.
 
 Guide the user through creating a new skill via dialogue. Ask one question at a time:
 
-1. **Name** — What should the skill be called? (becomes the /slash-command)
-2. **Purpose** — What should it do in one sentence?
-3. **Trigger** — When should someone use it? What's the situation?
-4. **Scope** — Global (`~/.claude/skills/`) or project-specific (`.claude/skills/`)?
-5. **Tools needed** — Does it need web search, bash, file reads, agents?
-6. **Steps** — Walk through the workflow step by step
+1. **Name** - What should the skill be called? (becomes the /slash-command)
+2. **Purpose** - What should it do in one sentence?
+3. **Trigger** - When should someone use it? What's the situation?
+4. **Scope** - Global (`~/.claude/skills/`) or project-specific (`.claude/skills/`)?
+5. **Tools needed** - Does it need web search, bash, file reads, agents?
+6. **Steps** - Walk through the workflow step by step
 
 Once you have enough information, draft the skill file and show it to the user for review before writing it.
 
 ## IMPORTANT: file layout
 
-Skills MUST be a **folder containing `SKILL.md`** — flat `.md` files in the skills directory are NOT picked up as slash-commands on this setup. Write to:
+Skills MUST be a **folder containing `SKILL.md`** - flat `.md` files in the skills directory are NOT picked up as slash-commands on this setup. Write to:
 - `~/.claude/skills/<name>/SKILL.md` for global skills
 - `.claude/skills/<name>/SKILL.md` for project-local skills
 
