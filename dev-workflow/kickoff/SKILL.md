@@ -103,7 +103,10 @@ draft the brief for the user to start manually.
    fit the binding list is a finding to send back, not a licence to improvise.
 
 7. **Hand off.**
-   - spawn mode: call `spawn_task` with a verb-first `title`, the brief as
+   - spawn mode: call `spawn_task` with a verb-first `title` - unless an
+     orchestrator procedure sets a naming convention (e.g. one standing session
+     per project, titled with the project name), in which case follow it so the
+     session can be found again - the brief as
      `prompt`, a plain-English `tldr`, and `cwd` = target repo. Then tell the
      user to set the recommended model/effort when they open it.
    - manual mode: print the brief and the start command; do not spawn.
